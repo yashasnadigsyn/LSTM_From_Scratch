@@ -1,5 +1,3 @@
--  As discussed in the previous chapters, We can solve the exploding gradients problem with gradient clipping, but we still suffer from vanishing gradients problem. LSTMs (Long Short-Term Memory networks) were designed specifically to address this problem.
-
 ## The Memory Cell
 - LSTMs are essentially RNNs with a special "memory cell" that replaces the ordinary recurrent node in standard RNNs.
 - This memory cell is the heart of the LSTM and provides a mechanism for selectively remembering or forgetting information over time.
